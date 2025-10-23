@@ -1,0 +1,26 @@
+.profile-base {
+    background-color: #0000003F;
+    border-radius: 1em;
+    width: fit-content;
+    height: fit-content;
+    padding: 1em;
+}
+
+.profile-avatar {
+    aspect-ratio: 1;
+    width: 128px;
+    height: 128px;
+}
+
+.profile-name {
+    display: inline;
+}
+
+td {
+    vertical-align: top;
+    padding: 4px;
+}
+
+.profile-left-border {
+    border-left: 1px solid black;
+}
