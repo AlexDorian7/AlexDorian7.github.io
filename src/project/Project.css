@@ -1,0 +1,32 @@
+.project-base {
+    background-color: #0000003F;
+    border-radius: 1em;
+    width: fit-content;
+    height: fit-content;
+    padding: 1em;
+    margin: 2.5vw;
+}
+
+.project-image {
+    aspect-ratio: 1;
+    width: 128px;
+    height: 128px;
+}
+
+.project-name {
+    display: inline;
+}
+
+td {
+    vertical-align: top;
+    padding: 4px;
+}
+
+.project-left-border {
+    border-left: 1px solid black;
+    margin: 0;
+}
+
+.project-bottom-border {
+    margin: 0;
+}
