@@ -30,3 +30,8 @@ td {
 .project-bottom-border {
     margin: 0;
 }
+
+.project-link {
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+}

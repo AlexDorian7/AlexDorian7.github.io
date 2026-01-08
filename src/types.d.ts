@@ -5,7 +5,7 @@ export interface Profile_t {
 
 export interface Project_t {
     name: string;
-    image: string;
+    image: string?;
     description: string;
-    link: { href: string, text: string };
+    link: { href: string, text: string }[];
 }

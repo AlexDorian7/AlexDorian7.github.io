@@ -8,15 +8,17 @@ function Project({ project }: { project: Project_t }) {
             <table>
                 <tr>
                     <td>
-                        <img className="project-image" src={project.image} alt="Project Image" draggable={false} />
+                        {project.image !== null ? <img className="project-image" src={project.image} alt="Project Image" draggable={false} /> : <></>}
                     </td>
                     <td className="project-left-border">
-                        <h1 className="project-name">{project.name}</h1>
+                        <h3 className="project-name">{project.name}</h3>
                     </td>
                 </tr>
             </table>
             <p className="project-bottom-border">{project.description}</p>
-            <a href={project.link.href} target="_blank">{project.link.text}</a>
+            {project.link.map(l => {
+                return (<a className="project-link" href={l.href} target="_blank">{l.text}</a>)
+            })}
         </div>
     );
 }
