@@ -15,9 +15,13 @@ function App() {
         <Profile profile={{ name: "Alex Dollar", avatar: avatar }} />
         <div className='bio'>
           <p>Hello, I'm Alex Dollar, known to some as Versel. I am an aspiring technical artist / graphics programmer and active computer scientist. I have a bachelors degree in computer science and have developed / worked on many projects.</p>
-          <p><a href="https://github.com/AlexDorian7" target="_blank">Github</a> | <a href="https://www.linkedin.com/in/alex-dollar-841946238/" target="_blank">Linked In</a></p>
+          <p><a href="https://github.com/AlexDorian7" target="_blank" rel="noopener">Github</a> | <a href="https://www.linkedin.com/in/alex-dollar-841946238/" target="_blank" rel="noopener">Linked In</a></p>
         </div>
       </header>
+      <h1>Game Projects</h1>
+      <div className='project-container'>
+        <Project project={{ name: "Masque of the Red Death", image: masque_red_death_icon, description: "This game was written for the 2026 Global Game Jam in Unreal Engine.", link: [{ href: "https://globalgamejam.org/games/2026/masque-red-death-1", text: "Global Game Jam" }] }} />
+      </div>
       <h1>Code Projects</h1>
       <h2>General Projects</h2>
       <div className='project-container'>
@@ -38,9 +42,6 @@ function App() {
         <Project project={{ name: "Versel Mines", image: null, description: "Versel Mines is a minecraft plugin that adds prison style mines with the ability to add custom mining speeds and have custom loot tables. This plugin also adds a way to sell items as well as a custom crafting system.", link: [{ href: "https://github.com/AlexDorian7/versel-mines", text: "Github" }] }} />
         <Project project={{ name: "Versel World Mines", image: null, description: "Versel World Mines is a minecraft plugin that adds hypixel skyblock style mines with the ability to add custom mining speeds and have custom loot tables. This plugin also has the ability to generate procedural mineshafts.", link: [{ href: "https://github.com/AlexDorian7/versel-world-mines", text: "Github" }] }} />
       </div>
-      <h1>Game Projects</h1>
-      <p>This section is work in progress</p>
-      <Project project={{ name: "Masque of the Red Death", image: masque_red_death_icon, description: "This game was written for the 2026 Global Game Jam.", link: [{ href: "https://globalgamejam.org/games/2026/masque-red-death-1", text: "Global Game Jam" }] }} />
       <h1>Technical Art Projects</h1>
       <p>This section is work in progress</p>
     </div>

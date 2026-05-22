@@ -17,7 +17,7 @@ function Project({ project }: { project: Project_t }) {
             </table>
             <p className="project-bottom-border">{project.description}</p>
             {project.link.map(l => {
-                return (<a className="project-link" href={l.href} target="_blank">{l.text}</a>)
+                return (<a className="project-link" href={l.href} target="_blank" rel="noopener">{l.text}</a>)
             })}
         </div>
     );
