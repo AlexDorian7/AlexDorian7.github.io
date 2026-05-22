@@ -10,6 +10,32 @@
   color: white;
 }
 
+.project-container {
+  text-align: center;
+  background-color: #474e5c;
+  min-height: 100vh;
+  width: 100%;
+  margin: 0;
+  display: grid;
+  grid-template-columns: auto;
+  align-items: center;
+  justify-content: top;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+@media screen and (min-width: 480px) {
+  .project-container {
+    grid-template-columns: auto;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .project-container {
+    grid-template-columns: auto auto;
+  }
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
